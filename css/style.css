@@ -85,3 +85,32 @@ footer {
     padding: 25px;
     background-color: #e9f2f7;
 }
+/* ==============================
+   NAVIGATION BAR
+   ============================== */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 12px;
+    background-color: #e9f2f7;
+    color: #23644c;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+nav a:hover {
+    background-color: #23644c;
+    color: white;
+    transform: translateY(-2px);
+}
