@@ -1,1 +1,87 @@
+/* ==============================
+   EASY PEASY TN - BASIC DESIGN
+   ============================== */
 
+/* General page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8fbff;
+    color: #263238;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-bottom: 3px solid #e9f2f7;
+}
+
+/* Logo */
+header img {
+    display: block;
+    margin: 0 auto 15px;
+    max-width: 180px;
+    height: auto;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Titles */
+h1 {
+    margin: 10px 0;
+    font-size: 2.2rem;
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 1.7rem;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+/* Links */
+a {
+    color: #23644c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Access button */
+button {
+    margin-top: 20px;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 12px;
+    background-color: #23644c;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+/* Footer */
+footer {
+    margin-top: 60px;
+    padding: 25px;
+    background-color: #e9f2f7;
+}
