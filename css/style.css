@@ -15,8 +15,33 @@ body {
 /* Header */
 header {
     background-color: #ffffff;
-    padding: 30px 20px;
+    padding: 25px 20px;
     border-bottom: 3px solid #e9f2f7;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+}
+
+header h1 {
+    color: #23644c;
+    font-size: 2.3rem;
+    margin: 8px 0;
+}
+
+header p {
+    color: #667085;
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 160px;
+    height: auto;
+    transition: 0.2s ease;
+}
+
+header img:hover {
+    transform: scale(1.05);
 }
 
 /* Logo */
